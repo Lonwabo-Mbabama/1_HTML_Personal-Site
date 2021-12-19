@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lonwabo's Personal Website</title>
+  <link rel="stylesheet" href="C:\Users\Lonwabo Mbabama\Desktop\Web Development\HTML_Personal Site\CSS\styles.css">
+</head>
+
+<body>
+  <!-- Profile picture with name, title and current work place, and a short bio -->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="C:\Users\Lonwabo Mbabama\Desktop\Web Development\HTML_Personal Site\images\lonwabo_picture-modified.png" alt="A picture of
+      Lonwabo's face"></td>
+      <td>
+        <h1>Lonwabo Mbabama</h1>
+        <p><em>Juniour Consultant</em> at <a href="https://www.linkedin.com/company/rombus-pty-ltd/"><strong>Rombus</strong>.</p></a>
+        <p>I'm newly graduated BCom Accounting student from the University of
+          Johannesburg currently working at Rombus as a Juniour Consultant.</p>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Unordered list of education history-->
+  <h3>Education</h3>
+  <ul>
+    <li>BCom Accounting at the <a href="https://www.uj.ac.za/">University
+        of Johannesburg</a></li>
+    <li>National Senior Certificate at <a href="https://maritzburgcollege.co.za/">Maritzburg College</a></li>
+  </ul>
+
+  <!-- A table that shows my work experience by year and the the company I worked at-->
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020 - To Date</td>
+        <td>Juniour Consultant at Rombus (Pty) Ltd</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>Management Accounting Strategy Tutor at the University of Johannesburg</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>Financial Management Tutor at the University of Johannesburg</td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Sales Consultant at Damelin College</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- <table>
+
+    </table> showing skills rated using stars out of 5 -->
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>HTML 5</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Javascript</td>
+      <td>⭐⭐</td>
+    </tr>
+    <tr>
+      <td>PHP</td>
+      <td>⭐</td>
+    </tr>
+  </table>
+</body>
+<!-- Link to page of this page showing my hobbies-->
+<hr>
+<p><a href="hobbies.html">
+    <h3>My Hobbies</h3>
+  </a></p>
+<!-- Link to page of this page showing my contact details-->
+<p><a href="contactMe.html">
+    <h3>Contact Me</h3>
+  </a></p>
+
+</html>
